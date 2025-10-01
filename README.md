@@ -1,26 +1,34 @@
-# 🎧 Music Recommendation System
+# 🎧 Music Recommendation System  
 
-This project uses **Spotify track features** (danceability, energy, tempo, valence, etc.) and a **Deep Neural Network (DNN)** to recommend similar songs.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AJAYBADUGU/Music-Recommendation-System/blob/main/Music_Recommendation.ipynb)  
+
+A Deep Learning-based Music Recommendation System using Spotify dataset 🎶.  
+It recommends songs based on audio features like danceability, energy, tempo, valence, etc.  
+
+---
 
 ## 🚀 Features
-- Explored and preprocessed 230k+ Spotify tracks dataset  
-- Built a Deep Neural Network (TensorFlow/Keras)  
-- Used cosine similarity for music recommendations  
-- Visualized feature relationships with Seaborn/Matplotlib  
+- Preprocessed Spotify music dataset  
+- Built a Deep Neural Network (DNN) using TensorFlow/Keras  
+- Generated personalized song recommendations  
+- Visualized feature importance using Matplotlib & Seaborn  
 
-## 🛠 Tech Stack
-- Python, Pandas, NumPy
-- TensorFlow/Keras
-- Scikit-learn
-- Matplotlib, Seaborn
-- Google Colab
+---
 
 ## 📊 Dataset
-[Spotify Dataset (Kaggle)](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db)
+- Dataset: [Spotify Dataset (Kaggle)](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db)  
+- Note: The full dataset is **not included in this repo** due to GitHub file size limit (>25MB).  
+- For demo, you can sample smaller data in Colab.  
 
-## 🖼 Example Output
-```python
-recommend(10, top_n=5)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/<repo-name>/blob/main/your_notebook.ipynb)
+---
 
+## 🛠️ Tech Stack
+- **Python**
+- **Pandas, Numpy** (data preprocessing)  
+- **Scikit-learn** (feature scaling, preprocessing)  
+- **TensorFlow / Keras** (Deep Neural Networks)  
+- **Matplotlib, Seaborn** (visualizations)  
 
+---
+
+## 📂 Project Structure
